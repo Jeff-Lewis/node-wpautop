@@ -1,6 +1,6 @@
 {
   "name": "wpautop",
-  "version": "0.1.2",
+  "version": "0.1.2-jl",
   "description": "Node.js port of Wordpress' wpautop() function",
   "main": "lib/wpautop.js",
   "scripts": {
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andymantell/node-wpautop.git"
+    "url": "https://github.com/jeff-lewis/node-wpautop.git"
   },
   "author": "Andy Mantell <contact@andymantell.com> (http://andymantell.com/)",
   "license": "GPLv2",
   "bugs": {
-    "url": "https://github.com/andymantell/node-wpautop/issues"
+    "url": "https://github.com/jeff-lewis/node-wpautop/issues"
   },
-  "homepage": "https://github.com/andymantell/node-wpautop",
+  "homepage": "https://github.com/jeff-lewis/node-wpautop",
   "devDependencies": {
-    "mocha-jshint": "0.0.9",
-    "should": "^4.6.2"
+    "mocha-jshint": "2.2.6",
+    "should": "^8.1.1"
   },
   "dependencies": {
-    "phpjs": "^1.3.2"
+    "phpjs": "git+https://github.com/jeff-lewis/phpjs.git"
   }
 }
