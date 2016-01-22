@@ -1,5 +1,5 @@
 {
-  "name": "wpautop",
+  "name": "wpautop-jl",
   "version": "0.1.2-jl",
   "description": "Node.js port of Wordpress' wpautop() function",
   "main": "lib/wpautop.js",
@@ -21,6 +21,6 @@
     "should": "^8.1.1"
   },
   "dependencies": {
-    "phpjs": "git+https://github.com/jeff-lewis/phpjs.git"
+    "phpjs-jl": "git+https://github.com/jeff-lewis/phpjs.git"
   }
 }

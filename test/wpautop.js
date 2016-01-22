@@ -1,7 +1,7 @@
 var should = require('should');
 var fs = require('fs');
 var path = require('path');
-var phpjs = require('phpjs');
+var phpjs = require('phpjs-jl');
 
 var wpautop = require('../lib/wpautop');
 
